@@ -9,4 +9,5 @@ http://localhost/www/demo/web/config.php
 
 # Configuraciones del PHP.ini
 intl.error_level = 0
+
 xdebug.max_nesting_level = 250
