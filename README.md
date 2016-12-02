@@ -21,3 +21,9 @@ C:\xampp\htdocs\www\demo\web\app.php y colocamos la siguiente linea
 
 $kernel = new AppKernel('prod', true);
 
+
+# Generando un Bundle
+nos paramos dentro del fichero y colocamos lo siguiente
+
+php bin/console generate:bundle --namespace=MiBundle -format=yml
+
