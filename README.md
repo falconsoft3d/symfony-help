@@ -16,6 +16,7 @@ xdebug.max_nesting_level = 250
 http://localhost/www/demo/web/app_dev.php
 
 # Creamos el hola mundo
+<code>
  /**
      * @Route("/hello-world", name="homepage")
      */
@@ -23,5 +24,5 @@ http://localhost/www/demo/web/app_dev.php
         echo "<h1>Hola mundo</h1>";
         die();
    }
-   
+ </code> 
 http://localhost/www/demo/web/app_dev.php/hello-world
