@@ -11,3 +11,6 @@ http://localhost/www/demo/web/config.php
 intl.error_level = 0
 
 xdebug.max_nesting_level = 250
+
+# Abrimos a modo de desarrollo
+http://localhost/www/demo/web/app_dev.php
