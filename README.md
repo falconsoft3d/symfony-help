@@ -14,3 +14,10 @@ xdebug.max_nesting_level = 250
 
 # Abrimos a modo de desarrollo
 http://localhost/www/demo/web/app_dev.php
+
+
+#Activamos el modo de producción
+C:\xampp\htdocs\www\demo\web\app.php y colocamos la siguiente linea
+
+$kernel = new AppKernel('prod', true);
+
