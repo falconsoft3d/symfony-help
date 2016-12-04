@@ -30,3 +30,6 @@ php bin/console generate:bundle --namespace=MiBundle -format=yml
 # Mapiando la base de datos
 php bin/console doctrine:mapping:import BackendBundle yml
 
+# Generar las entidades
+php bin/console doctrine:generate:entities BackendBundle
+
