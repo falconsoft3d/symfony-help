@@ -27,3 +27,6 @@ nos paramos dentro del fichero y colocamos lo siguiente
 
 php bin/console generate:bundle --namespace=MiBundle -format=yml
 
+# Mapiando la base de datos
+php bin/console doctrine:mapping:import BackendBundle yml
+
